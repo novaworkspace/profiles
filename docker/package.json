@@ -1,0 +1,15 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rabbit": "docker-compose -f rabbitmq.yml up",
+    "postgres": "docker-compose -f postgres.yml up",
+    "redis": "docker-compose -f redis.yml up",
+    "mongo": "docker-compose -f mongo.yml up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
